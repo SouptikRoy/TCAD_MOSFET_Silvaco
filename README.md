@@ -38,3 +38,68 @@ This project provides a step-by-step guide and example input files for simulatin
 
 ## Directory Structure
 
+
+
+## Getting Started
+
+Clone the repository or download the ZIP, then ensure Silvaco is installed and licensed on your machine.
+
+1. Place your `.inp` scripts into `/scripts`.
+2. Make sure `mosfet_process.inp` and `mosfet_device.inp` match your simulation needs.
+
+## Example Workflow
+
+### 1. Process Simulation (ATHENA)
+
+Simulate the MOSFET fabrication using ATHENA:
+
+
+Output: ATHENA will generate a structure file (e.g., `mosfet.str`).
+
+### 2. Device Simulation (ATLAS)
+
+Run the electrical simulation using ATLAS:
+
+
+Output: Device simulation results (IV curves, etc.).
+
+### 3. Visualization (TonyPlot)
+
+Display output structure and doping profiles with TonyPlot:
+
+- Use menu options to visualize net doping, active dopants, or mesh.
+- Adjust color scales and perspectives as needed for clarity.
+
+## Output Interpretation
+
+- **Abs Net Doping (3D/2D):** Shows spatial doping concentrations in units of cm⁻³.
+- **Active Boron:** Displays active dopant distribution (for p-type doping).
+- **Layer Colors:** Refer to the legend—blue (Silicon), yellow (SiO₂), black (Polysilicon), pink (Aluminum).
+
+## Screenshots
+
+Below are some typical results you will observe. See `/results` for full-resolution images.
+
+| Visualization           | Description                                  |
+|-------------------------|----------------------------------------------|
+| Abs Net Doping (3D)     | 3D surface map of doping profile             |
+| Abs Net Doping (2D)     | Contour plot showing net doping cross-section|
+| Active Boron (2D)       | Layered plot of boron distribution           |
+
+(Example TonyPlot screenshots are provided in this repository.)
+
+## Contributing
+
+- Issues and pull requests for new device structures, improved scripts, or documentation updates are welcome.
+- Please document any changes and follow the directory structure.
+
+## License
+
+This repository is for academic and research use only. All sample scripts presume the user has access to properly licensed Silvaco TCAD software. No proprietary code is distributed.
+
+---
+
+**Note:** For details on each step, script comments, and best practices, refer to example `.inp` files and the official Silvaco manuals.
+
+
+
