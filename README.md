@@ -88,6 +88,23 @@ Below are some typical results you will observe. See `/results` for full-resolut
 
 (Example TonyPlot screenshots are provided in this repository.)
 
+![Simulation](Screenshot(272).png)
+![Simulation](Screenshot(273).png)
+![Simulation](Screenshot(274).png)
+![Simulation](Screenshot(275).png)
+![Simulation](Screenshot(276).png)
+![Simulation](Screenshot(277).png)
+![Simulation](Screenshot(278).png)
+![Simulation](Screenshot(279).png)
+![Simulation](Screenshot(280).png)
+![Simulation](Screenshot(281).png)
+![Simulation](Screenshot(282).png)
+![Simulation](Screenshot(283).png)
+![Simulation](Screenshot(284).png)
+![Simulation](Screenshot(286).png)
+![Simulation](Screenshot(287).png)
+![Simulation](Screenshot(288).png)
+
 ## Contributing
 
 - Issues and pull requests for new device structures, improved scripts, or documentation updates are welcome.
