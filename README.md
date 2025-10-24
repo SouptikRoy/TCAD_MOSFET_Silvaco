@@ -102,8 +102,8 @@ Below are some typical results you will observe. See `/results` for full-resolut
 ![Simulation](Screenshot(283).png)
 ![Simulation](Screenshot(284).png)
 ![Simulation](Screenshot(286).png)
-![Simulation](Screenshot(287).png)
-![Simulation](Screenshot(288).png)
+![Simulation](Screenshot287.png)
+![Simulation](Screenshot288.png)
 
 ## Contributing
 
